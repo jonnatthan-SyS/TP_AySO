@@ -1,2 +1,3 @@
-# TP_AySO
-TP 1 ARQ  Y SO 2025
+Alumno: Jonathan Quintana
+Division: 115
+Turno: Mañana
