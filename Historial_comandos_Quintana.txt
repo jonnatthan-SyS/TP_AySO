@@ -1,0 +1,431 @@
+multipass stop [nombre de la VM]
+man ls
+ls
+ls-l
+ls -l
+cat README 
+cat << EOF
+linea 1
+linea 2
+linea 3
+linea 4
+EOF
+
+cat << FIN >clase3.txt
+linea 1
+linea 2
+linea 3
+linea 4
+FIN
+
+ls
+cat clase3.txt
+cat << FIN >clase3.txt
+lina 5
+linea 6
+FIN
+
+ls
+cat clase3.txt
+cat << fin >> clase3.txt
+linea 7
+linea 8
+fin
+
+ls
+cat clase3.txt
+cat << fin >> clase.txt
+hola como esta; yo estoy bien y vos ?
+fin
+
+ls
+cat clase.txt
+cat << fin >> clase.txt
+me alegro, yo estoy estudiando un poco y vos ?
+nana re esquisofrenico el loco 
+fin
+
+ls
+cat clase.txt
+man bc
+bc <<< 1+2
+bc <<< 45+6924+352
+bc <<< 4*16
+bc <<< 4*3
+ls
+cat clase3.txt
+man tac
+tac clase3.txt
+man wc
+man echo
+echo "hola mundo" | wc
+echo "hola mundo
+echo "hola mundo"
+echo "hola mundo
+echo "hola mundo"fin
+echo "hola mundo"
+echo "hola mundo" | wc
+cat clase3.txt | wc
+cat clase3.txt | wc | echo
+cat clase3.txt | wc | echo "hola"
+man wc
+cat clase3.txt | wc -w
+cat clase3.txt | wc -l
+clase3.txt | wc -c
+cat clase3.txt | wc -c
+man tail
+cat clase3.txt | tail 
+tail -n1 clase3.txt
+tail clase3.txt
+tail -n clase3.txt
+tail -n2 clase3.txt
+tail -n4 clase3.txt
+tail -n5 clase3.txt
+man head
+head -n1 clase3.txt
+head -n2 clase3.txt
+cat clase3.txt |tail -n1
+cat clase3.txt |head -n1
+man grep
+cat clase3.txt |head -n1 | grep 2
+cat clase3.txt | head -n1 | grep 2
+cat clase3.txt | head -n1 | grep 5
+cat clase3.txt | head -n1 | grep 6
+cat clase3.txt | head -n4 | grep 6
+cat clase3.txt | head -n4 | grep 5,6
+cat clase3.txt | head -n4 | grep 5
+cat clase3.txt | head -n4 | grep 5 | grep 6
+cat clase3.txt | head -n4 | grep 6
+cat clase3.txt | head -n3 | grep linea
+cat clase3.txt | head -n4 | grep linea
+cat clase3.txt | head -n5 | grep linea
+cat clase3.txt | head -n5 | grep line
+cat clase3.txt | head -n5 | grep "line 5"
+cat clase3.txt | head -n3 | grep "line 5"
+cat clase3.txt | head -n3 | grep "linea 5"
+cat clase3.txt | head -n3 | grep "linea 6"
+cls
+cd /
+ls
+proc
+cd proc
+ls
+cat cpinfo
+cat cpuinfo
+man grep
+grep -i
+grep -i core cpuinfo
+grep -i yes cpuinfo
+grep -i flags cpuinfo
+cat cpuinfo | grep -i core
+grep -i core cpuinfo
+cat cpuinfo | grep -i core | head -n1
+grep -i core cpuifo | head -n1
+grep -i core cpuifo | head -n2
+cat cpuinfo | grep -i core | head -n1
+grep -i core cpuinfo | head -n1
+nproc
+man mkdir
+mkdirt clases
+mkdir clases
+ls
+mkdir clases
+mkdir clases2
+ls
+cd
+mkdir clases
+ls
+pwd
+ls
+ls -l
+man mv
+mv clase3.txt clases
+ls
+mv clases.txt clases
+mv clase.txt clases
+ls
+cd clases /
+cd clases/
+ls
+cd
+cd clases/
+mv clase3.txt clase4.txt
+ls
+mc clase.txt clase4.txt
+mv clase.txt clase4.txt
+ls
+cat clase4.txt
+cd
+cat clase4.txt
+ls
+cat clases
+man cp
+cd clases/
+ls
+cat clase4.txt 
+<< fin >> clase4.txt
+hola 
+linea 4
+linea 5
+fin
+
+cat clase4.txt
+cp clase4.txt ..
+ls
+cd
+pw
+pwd
+ls
+cat clase4.txt
+man em
+man rm
+rm clase4.txt
+ls
+cd exit /
+exit
+rm clases
+rm clases / -r
+mkdir clases2
+ls
+rm clases2/-r
+ls
+rm clases2 / -r
+ls
+cd ../..
+pwd
+cd
+rm -r clases2
+ls
+man rmdir
+cd clases
+ls
+<< fin > clases
+hola
+fin
+
+ls
+cat clases
+cd clases
+cd clases/
+mkdir clases2
+ls
+mv clases clases2
+ls
+cd clases2/
+ls
+rmdir clases2
+rm -r clases2
+cd
+ls
+rm -r clases2
+ls
+cd /
+ls
+cd var
+ls
+cd log
+ls
+tail -f dmesg
+man sudo
+sudo tail -f dmesg
+man journal ctl
+man journalctl
+journalctl 
+man journalctl
+journalctl -kf
+cd
+wpd
+pwd
+ls
+exit
+sudo snap install tree
+cd/etc
+cd etc/
+ls
+pwd
+tree.
+tree .
+mkdir -p familia/{mama,papa}/hijo{1..4}
+tree familia/
+cd familia/papa/
+cd
+mkdir -p familia2/{mama/hijos{1..4},papa/{perro,hijo{1..4}}}
+tree familia2
+mkdir -p familia3/{{mama,papa}/hijo{1..4},papa/perro]
+tree familia3
+mkdir -p familia3/{{mama,papa}/hijo{1..4},papa/perro}
+tree familia3
+tree familia3/
+mkdir -p familia3/{{mama,papa}/hijo{1..4},papa/perro}
+tree familia3/
+cd etc/
+cd/etc
+ect
+etc/
+/home
+cd home
+cd home/
+cd / home
+cd home
+ls
+mr -r familia 
+ls
+rm -r familia
+ls
+rm -r familia2
+rm -r familia3
+ls
+/home
+cd home
+cat home
+cat home/
+cd cat home/
+man home
+man cat
+cd/home/
+cd/home/vagrant
+cd
+ls
+/home
+/cd home
+cd/home
+cd/home/vagrant@vmpruebas
+exit
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd
+sudo apt install git
+git --version
+vagrant exit
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd
+pwd
+sudo apt install git
+git --version
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+cp README miercoles4/
+cp README TP_AySO/
+cd TP_AySO/
+ls -la
+git status
+git add README
+git status
+git commit -m "primer archivo"
+git pusg origin main
+git push origin main
+git push -u origin main
+cd
+vagrant exit
+ssh -t git@github.com
+ssh -T git@github.com
+cd repogit
+git clone git@github.com:jonnatthan-SyS-design/TP_AySO.git
+git clone git@github.com:jonnatthan-SyS
+TP_AySOgit clone git@github.com:jonnatthan-SyS
+git clone git@github.com:jonnatthan-SyS-design/TP_AySO.git
+git clone git@github.com:jonnatthanSyS-design/TP_AySO.git
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat/etc/mtab
+cat /etc/mtab
+man grep
+grep -i SYSFS /etc/mtab
+grep SYSFS /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+cat datos_sys.txt
+grep home_url /etc/os-release
+whoami
+echo "usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.name "jonnatthan-SyS"
+git config --global user.mail jonnatthan-SyS@gmail.com
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+sit push
+grep "^$(whoami):" /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: añadiendo informacion del usuario"
+ls -l
+ssh -T git@github.com
+cd repogit
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+ssh -T git@github.com
+cd repogit
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+cd TP_AySO
+CD
+cd
+cd TP_AySO
+ls
+rm -rf TP_AySO
+cd
+cd repogit
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+ls -l
+cd repogit
+ls -l
+cd TP_AySO/
+ls -l
+cd ..
+rm -rf TP_AySO/
+ls -l
+git
+git clone git@github.com:jonnatthan-SyS/TP_AySO.git
+cd TP_AySO/
+pwd 
+ls -l
+cat /etc/mtab
+man grep
+grep SYSFS /etc/mtab
+grep home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+whoami 
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "jonyquintana04@gmail.com"
+git config --global user.name "jonnatthan-SyS"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "$(whoami):" /etc/passwd | awk -F: ´{print "Comentario="$5"\nHome="$6}´ >> datos_usuario.txt
+grep "$(whoami):" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome="$6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo informacion del usuario"
+git push
+cat <<EOF > README.md
+Alumno: Jonathan Quintana
+Division: 115
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p $HOME/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
+cd ..
+tree
+cd repogit
+cd TP_AySO/
+echo "mkdir -p $HOME/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}" > script_dir.sh
+chmod 777 script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
